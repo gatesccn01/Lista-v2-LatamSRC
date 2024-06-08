@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorSecondary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonTint">#ff00c5d6</item>
+        <item name="android:textColor">#ff7a7a7a</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/white</item>
+    </style>
+
+    <style name="ThemeOverlay.App.CircularProgressIndicator" parent="">
+        <item name="colorPrimary">@color/red</item>
+    </style>
+
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorSecondary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--
+                <item name="android:windowBackground">@drawable/splash_screen_background</item>
+        -->
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/colorSecondary</item>
+    </style>
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="actionMenuTextColor">@android:color/holo_green_light</item>
+        <item name="colorAccent">@color/blue3</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/blue3</item>
+        <item name="colorControlHighlight">@color/gray2</item>
+
+    </style>
+
+    <style name="SplashTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorSecondary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="MyActionBar.MenuTextStyle" parent="Theme.AppCompat">
+        item name="android:windowAnimationStyle">@style/WindowAnimationTransition/item
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorSecondary">#000000</item>
+        item name="android:itemBackground">?bgcolor/item>
+        <item name="android:textSize">10.0dip</item>
+        <item name="android:colorBackground">#EEEEEE</item>
+        <item name="android:textColor">#EEEEEE</item>
+    </style>
+
+    <style name="ToolbarTitleTheme" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="dialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowMinWidthMajor">85%</item>
+        <item name="android:windowMinWidthMinor">85%</item>
+    </style>
+
+
+    <style name="Toolbar.TitleText" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">21.0sp</item>
+        <item name="android:textColor">@color/colorOpposite</item>
+    </style>
+
+    <style name="Toolbar.SubTitleText" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="HiroPopUpMenu" parent="Widget.AppCompat.PopupMenu">
+        <!--
+                <item name="android:popupBackground">@drawable/hiro_alert_bg</item>
+        -->
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="HiroDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--
+                <item name="android:windowBackground">@drawable/hiro_alert_bg</item>
+        -->
+        <item name="android:windowMinWidthMinor">85%</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="AppPreference">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Alert Dialog -->
+    <style name="AppAlertDialogLogin" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--  <item name="android:textColor">@color/colorText</item>
+          <item name="android:textColorHint">@color/colorText</item>
+          <item name="buttonTint">@color/colorText</item> -->
+        <item name="android:background">@color/colorSecondaryBackground</item>
+    </style>
+
+    <style name="TextView0" parent="@android:style/TextAppearance">
+        <item name="android:textSize">9.0dip</item>
+    </style>
+
+    <style name="TextView" parent="@android:style/TextAppearance">
+        <item name="android:textSize">10.0dip</item>
+    </style>
+
+    <style name="TextView1" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12.0dip</item>
+    </style>
+
+    <style name="TextView2" parent="@android:style/TextAppearance">
+        <item name="android:textSize">13.0dip</item>
+    </style>
+
+    <style name="TextView3" parent="@android:style/TextAppearance">
+        <item name="android:textSize">17.0dip</item>
+    </style>
+
+    <style name="TextView4" parent="@android:style/TextAppearance">
+        <item name="android:textSize">11.0dip</item>
+    </style>
+
+    <style name="TextView5" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14.0dip</item>
+    </style>
+
+    <style name="TextView6" parent="@android:style/TextAppearance">
+        <item name="android:textSize">8.0dip</item>
+    </style>
+
+    <style name="TextView7" parent="@android:style/TextAppearance">
+        <item name="android:textSize">15.0dip</item>
+    </style>
+
+    <style name="NaviText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12.0dip</item>
+        item name="android:textColor">@drawable/nav_text/item>
+    </style>
+</resources>

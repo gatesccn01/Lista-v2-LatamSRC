@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Buscar"
+        android:visible="true"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView" />
+
+
+    <item
+        android:id="@+id/menu_cancelar"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Cancelar"
+        android:visible="false"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+
+
+    <item
+        android:title="Orden de los Servidores:"
+        android:visible="true"
+        android:enabled="false"/>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/ordenardefault"
+            android:title="Defecto"/>
+
+        <item
+            android:id="@+id/ordenaraz"
+            android:title="Alfabetico A-Z"/>
+
+
+        <item
+            android:id="@+id/ordenarsim"
+            android:visible="false"
+            android:title="Mi Compañia"/>
+
+    </group>
+
+</menu>

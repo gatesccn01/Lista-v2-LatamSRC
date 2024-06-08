@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lista LatamSRC</string>
+    <string name="TOKENMANDARIN">Lista LatamSRC</string>
+    <string name="LatamSRCPASSWORD">LatamSRC</string>
+    <string name="LatamSRCPatch">config/config.json</string>
+    <string name="LatamSRCnamejson">Config.json</string>
+    <string name="UpdateLatamSRC">https://firebasestorage</string>
+    <string name="mobile_info">Running on %3$s %1$s (%2$s), Android %5$s API %4$d</string>
+    <string name="app_mobile_info">Application Version: %1$s %2$s</string>
+    <string name="state_starting">Getting Started</string>
+    <string name="state_connecting">Conectando</string>
+    <string name="state_wait">WAITING FOR SERVER RESPONSE</string>
+    <string name="state_auth">Autenticando</string>
+    <string name="state_auth_success">Authenticate with password  </string>
+    <string name="state_get_config">Getting client configuration</string>
+    <string name="state_assign_ip">Assigning IP addresses</string>
+    <string name="state_add_routes">Adding routes</string>
+    <string name="state_connected">Conectado</string>
+    <string name="state_disconnected">Desconectado</string>
+    <string name="state_reconnecting">Reconectando</string>
+    <string name="state_stopping">STOPPING</string>
+    <string name="state_noprocess">Not running</string>
+    <string name="state_resolve">Resolving host names</string>
+    <string name="state_tcp_connect">Conectando (TCP)</string>
+    <string name="state_auth_failed">Authentication failed</string>
+    <string name="state_nonetwork">Waiting for network</string>
+    <string name="state_waitconnectretry">Waiting %ss seconds between connection attempt</string>
+    <string name="state_auth_pending">Waiting for Autentication</string>
+    <string name="state_user_vpn_password" translatable="false">Waiting for user VPN password</string>
+    <string name="state_user_vpn_permission" translatable="false">Waiting for user permission to use VPN API</string>
+    <string name="state_user_vpn_password_cancelled" translatable="false">VPN password input dialog cancelled</string>
+    <string name="state_user_vpn_permission_cancelled" translatable="false">VPN API permission dialog cancelled</string>
+    <string name="unknown_state">Unknown Status</string>
+    <string name="nought_alwayson_warning"><![CDATA[If you did not get a VPN confirmation dialog, you have \"Always on VPN\" enabled for another app. In that case only that app is allowed to connect to a VPN. Check under Settings-> Networks more .. -> VPNS]]></string>
+    <string name="no_vpn_support_image">Your image does not support the VPNService API, sorry :(</string>
+    <string name="state_proxy_running">Running proxy</string>
+    <string name="state_proxy_inject">Injecting</string>
+
+</resources>

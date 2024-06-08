@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray_light">#ff7a7a7a</color>
+    <color name="blue">#2E6167</color>
+    <color name="blue_light">#fff1f1f1</color>
+    <color name="gray">#ff7a7a7a</color>
+    <color name="black_light">#ff7a7a7a</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#FFB6B9</color>
+    <color name="yellow">#EEFD00</color>
+    <color name="green">#ff4d4c5e</color>
+    <color name="blue3">#2E6167</color> <!-- Color Gradiente Boton Conectar -->
+    <color name="gray2">#DEDEDE</color>
+
+
+    <color name="colorPrimary">@color/blue_light</color>
+    <color name="colorPrimaryDark">@color/blue</color>
+    <color name="colorSecondary">@color/blue</color>
+    <color name="colorAccent">@color/gray</color>
+
+    <color name="colorPrimaryBackground">#EFEFEF</color>
+    <color name="colorSecondaryBackground">#FFFFFF</color>
+
+    <color name="rippelColor">#ff63a742</color>
+    <color name="colorConnected">#cd0030</color>
+    <color name="colorDisconnected">#cd0030</color>
+    <color name="colorOpposite">#ff7a7a7a</color>
+
+    <color name="colorTextEnabled">#DEDEDE</color>
+    <color name="colorTextDisabled">#ff00c5d6</color>
+
+    <color name="material_blue">#2196F3</color>
+    <color name="material_light_blue">#03A9F4</color>
+    <color name="material_pink">#E91E63</color>
+    <color name="material_red">#F44336</color>
+    <color name="material_purple">#9C27B0</color>
+    <color name="material_deep_purple">#673AB7</color>
+    <color name="material_teal">#009688</color>
+    <color name="material_deep_orange">#FF5722</color>
+    <color name="material_green">#4CAF50</color>
+    <color name="material_cyan">#00BCD4</color>
+    <color name="material_orange">#FF9800</color>
+    <color name="material_indigo">#3F51B5</color>
+    <color name="material_brown">#795548</color>
+    <color name="material_blue_gray">#607D8B</color>
+    <color name="material_black">#07FF13</color>
+
+    <color name="body">#fff1f1f1</color>
+    <color name="White">#FFFFFF</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="file_dialog_gray">#ffff0000</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+</resources>
